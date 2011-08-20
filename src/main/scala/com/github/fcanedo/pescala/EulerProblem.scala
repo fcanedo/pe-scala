@@ -46,5 +46,6 @@ object EulerProblems {
 	    Problem012.printSolution
 	    Problem013.printSolution
 	    Problem014.printSolution
+	    Problem015.printSolution
     }
 }
