@@ -74,7 +74,10 @@ class ProjectEulerSpec extends Specification {
 			Problem012.solution === 76576500
 		}
 		"be 5537376230 for Problem 13" in {
-			Problem012.solution === 5537376230
+			Problem013.solution === "5537376230"
+		}
+		"be 837799 for Problem 14" in {
+			Problem014.solution === 837799
 		}
 	}
 }
