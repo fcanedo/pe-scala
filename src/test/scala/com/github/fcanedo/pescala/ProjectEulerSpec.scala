@@ -37,6 +37,9 @@ class ProjectEulerSpec extends Specification {
 	    "be 6 for Problem 15" in {
 		    Problem015.small === 6
 	    }
+	    "be 26 for Problem 16" in {
+		    Problem016.small === 26
+	    }
     }
 
 	"Solutions of Euler problems" should {
@@ -84,6 +87,9 @@ class ProjectEulerSpec extends Specification {
 		}
 		"be 137846528820 for Problem 15" in {
 			Problem015.solution === BigInt(137846528820l)
+		}
+		"be 1366 for Problem 16" in {
+			Problem016.solution === 1366
 		}
 	}
 }
