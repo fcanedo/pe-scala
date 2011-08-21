@@ -1,5 +1,8 @@
 package com.github.fcanedo.pescala
 
+/**
+ * How many letters would be needed to write all the numbers in words from 1 to 1000?
+ */
 object Problem017 extends EulerProblem {
 	def writeNumber(x: Int) = {
 		val singles = Array("", "one", "two", "three", "four",
